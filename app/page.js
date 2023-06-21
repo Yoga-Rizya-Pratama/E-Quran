@@ -28,7 +28,7 @@ export default async function Page() {
         cls={`mt-3 md:mt-6 font-semibold mb-2 md:text-xl`}
       />
       <hr className="h-[1px] border-[#9B46F2]" />
-      <div className="mt-3 md:flex md:flex-row md:flex-wrap md:justify-center gap-6">
+      <div className="mt-3 md:flex md:flex-row md:flex-wrap md:justify-center ">
         {data.map((surah) => (
           <div key={surah.nomor} className="md:w-96">
             <Link href={`detail/${surah.nomor}`}>
@@ -45,4 +45,4 @@ export default async function Page() {
       </div>
     </>
   );
-}
+}s
